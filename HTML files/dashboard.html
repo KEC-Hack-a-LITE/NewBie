@@ -3,15 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Social Services Gamification Dashboard</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Ensure the href attribute points to the correct path of your CSS file -->
 </head>
 <body>
     <div class="dashboard">
-<div class="profiles">
-    <h1>Dhirendra</h1>
-    
-</div>
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <h2>Menu</h2>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Leaderboard</a></li>
+                <li><a href="#">Rewards</a></li>
+            </ul>
+        </aside>
 
+        <!-- Main Content -->
+        <main class="main-content">
+            <header>
+                <h1>Social Services Gamification Dashboard</h1>
+            </header>
+            <section id="profile">
+                <h2>Profile</h2>
+                <!-- Profile information will be displayed here -->
+                <div class="profile-info">
+                    <p>Name: John Doe</p>
+                    <p>Level: 5</p>
+                    <p>Points: 2500</p>
+                </div>
+            </section>
+            <section id="leaderboard">
+                <h2>Leaderboard</h2>
+                <!-- Leaderboard will be displayed here -->
+                <ol>
+                    <li>Player 1 - 3000 points</li>
+                    <li>Player 2 - 2800 points</li>
+                    <li>Player 3 - 2700 points</li>
+                    <!-- Add more leaderboard entries dynamically -->
+                </ol>
+            </section>
+            <section id="rewards">
+                <h2>Rewards</h2>
+                <!-- Rewards information will be displayed here -->
+                <div class="rewards-list">
+                    <div class="reward">
+                        <h3>Level 5 Badge</h3>
+                        <img src="badge_level5.png" alt="Level 5 Badge">
+                    </div>
+                    <div class="reward">
+                        <h3>1000 Points Coupon</h3>
+                        <img src="coupon_1000points.png" alt="1000 Points Coupon">
+                    </div>
+                </div>
+            </section>
+        </main>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
