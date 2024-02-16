@@ -76,18 +76,18 @@ font-size: large;
 
 .rule-box:hover {
     justify-content: center;
-    background-color:yellowgreen ; /* Hover background color */
+    background-color:yellowgreen ; 
     color:brown ;over text color */
-    cursor: pointer; /* Change cursor on hover */
+    cursor: pointer; 
 }
 .highlight-heading {
-    background: linear-gradient(to right, #ff8a00, #e52e71); /* Gradient background */
-    color: white; /* Text color */
-    padding: 10px; /* Add padding for spacing */
-    text-align: center; /* Align text center */
+    background: linear-gradient(to right, #ff8a00, #e52e71); 
+    color: white; 
+    padding: 10px; 
+    text-align: center; 
 }
 .highlight-heading:hover {
-    background: linear-gradient(to right, #e52e71, #ff8a00); /* Gradient background on hover */
-    cursor: pointer; /* Change cursor on hover */
+    background: linear-gradient(to right, #e52e71, #ff8a00); 
+    cursor: pointer; 
 }
         
