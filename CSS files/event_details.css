@@ -77,7 +77,7 @@ font-size: large;
 .rule-box:hover {
     justify-content: center;
     background-color:yellowgreen ; 
-    color:brown ;over text color */
+    color:brown ;
     cursor: pointer; 
 }
 .highlight-heading {
