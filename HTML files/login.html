@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
     <link rel="stylesheet" href="/CSS files/loginpage.css">
+    <script src="/scripting/login.js"></script>
+    
 </head>
 <body>
     <div class="login-container">
@@ -14,7 +16,7 @@
                 <input type="text" id="username" name="username" placeholder="Username">
                 <input type="password" id="password" name="password" placeholder="Password">
                 <input type="tel" id="phone" name="phone" placeholder="Phone no.">
-                <button type="submit">Login</button>
+                <button type="submit" onclick="redirectTodashboard(event)">Login</button>
             </form>
             <div class="options">
                 <a href="#">Create Account</a>
