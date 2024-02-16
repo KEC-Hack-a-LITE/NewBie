@@ -82,22 +82,25 @@ nav {
     filter: blur(1.2px);
 }
 
+.event-slides {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 .glass-slide {
     width: 200px;
-    height: auto; /* Adjust the height as needed */
-    max-height: 400px; /* Set a maximum height to prevent excessive expansion */
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    height: auto;
+    max-height: 400px;
     background: rgba(31, 27, 27, 0.2);
     backdrop-filter: blur(10px);
     border-radius: 10px;
-    margin: 20px auto;
+    margin: 20px 0;
     padding: 20px;
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
     transition: transform 0.3s ease;
     overflow: hidden;
-    overflow-y: auto; 
+}
 
 .glass-slide:hover {
     transform: scale(1.1);
@@ -106,7 +109,7 @@ nav {
 .glass-slide img {
     display: flex;
     align-content: center;
-    width: 80%;
+    width: 90%;
     border-radius: 10px;
     margin-bottom: 10px;
 }
@@ -125,16 +128,15 @@ nav {
 }
 
 .options {
-    margin: bottom 20px; ; /* Pushes the options to the bottom of the container */
-    max-height: 50%; /* Set a maximum height for the options */
+    margin-top: auto;
+    max-height: 50%;
     overflow-y: auto;
 }
 
 .join-btn,
 .details-btn {
     display: inline-block;
-    padding: 8px 20px; 
-    margin-top: 12px;
+    padding: 8px 20px;
     color: #fff;
     background-color: #4caf50;
     border-radius: 5px;
@@ -144,5 +146,5 @@ nav {
 
 .join-btn:hover,
 .details-btn:hover {
-    background-color: #45a049;
+    background-color: #121712;
 }
