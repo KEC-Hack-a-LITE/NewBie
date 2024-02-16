@@ -84,11 +84,10 @@ footer .social-media {
 }
 
 .social-media ul li:last-child {
-    margin-right: 0; /* Remove margin from the last social media link */
-}
+    margin-right: 0; 
 
-.social-media a {
-    color: #333;
+ .social-media a {
+    color: #322929;
     text-decoration: none;
     padding: 5px 10px;
     border: 1px solid #333;
@@ -110,4 +109,5 @@ footer .contact-info p {
 
 footer .copyright {
     font-size: 0.8em;
+}
 }
