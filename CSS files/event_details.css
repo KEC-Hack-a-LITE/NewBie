@@ -32,4 +32,93 @@
         .volunteer-button:hover {
             background-color: #0056b3;
         }
-    
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #333;
+            text-align: center;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .rule {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .rule:hover {
+            background-color: #0056b3;
+        }
+        .criteria-list {
+            background-color: #f0f0f0; /* Choose your desired background color */
+            padding: 10px; /* Add padding for spacing */
+            border-radius: 5px; /* Add rounded corners */
+        }
+        .criteria-list li {
+            margin-bottom: 5px; /* Add margin between list items */
+        }
+.title {
+    background-color: #007bff; /* Fill color */
+    color: #fff; /* Text color */
+    padding: 10px; /* Add padding for spacing */
+    text-align: center; /* Align text center */
+}
+.container {
+    background-color: #f0f0f0; /* Background color of the container */
+    padding: 20px; /* Add padding for spacing */
+    border-radius: 5px; /* Add rounded corners */
+}
+
+.rules-heading {
+    background-color:brown ; /* Fill color for the Rules heading */
+    color: yellowgreen; /* Text color for the Rules heading */
+    padding: 10px; /* Add padding for spacing */
+    border-bottom: 2px solid #0056b3; /* Bottom border */
+}
+.rule-box {
+    justify-content: center;
+    display: inline-block; /* Display as inline-block to wrap content */
+    padding: 5px 10px; /* Add padding for spacing */
+    border: 2px solid red; /* Border style */
+    border-radius: 5px; /* Rounded corners */
+    color: #007bff; /* Text color */
+    transition: background-color 0.3s, color 0.3s; /* Transition effect */
+
+}
+
+.rule-box:hover {
+    justify-content: center;
+    background-color:yellowgreen ; /* Hover background color */
+    color:brown ;over text color */
+    cursor: pointer; /* Change cursor on hover */
+}
+.highlight-heading {
+    background: linear-gradient(to right, #ff8a00, #e52e71); /* Gradient background */
+    color: white; /* Text color */
+    padding: 10px; /* Add padding for spacing */
+    text-align: center; /* Align text center */
+}
+.highlight-heading:hover {
+    background: linear-gradient(to right, #e52e71, #ff8a00); /* Gradient background on hover */
+    cursor: pointer; /* Change cursor on hover */
+}
+        
