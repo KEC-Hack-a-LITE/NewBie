@@ -237,7 +237,6 @@ body {
     color: #fff;
     border-radius: 20px;
     font-size: 1rem;
-    width: auto;
 }
 h2 {
     background-color: #007bff; /* Background color for the title */
@@ -252,7 +251,7 @@ h2 {
     flex-direction: column;
     align-items: center; /* Align entries at the center horizontally */
     justify-content: flex-end; /* Align entries at the bottom */
-    height: 30vh; /* Set height to 100% of viewport height */
+    height: 100vh; /* Set height to 100% of viewport height */
     margin: 0; /* Remove default margin */
     padding: 0; /* Remove default padding */
 }
@@ -287,3 +286,31 @@ h1 {
     margin-top: 0; /* Remove default margin */
 }
 
+.profile-info {
+    background-color: #f9f9f9; /* Background color for the profile info */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: left; /* Align text to the left */
+    width: 80%; /* Set width to 80% of the container */
+    max-width: 400px; /* Set maximum width for responsiveness */
+    margin: 0 auto; /* Center align the box */
+}
+
+.profile-info p {
+    margin: 10px 0; /* Add margin to separate paragraphs */
+}
+
+.profile-info strong {
+    margin-right: 5px;
+}
+
+.badge {
+    display: inline-block;
+    padding: 5px 10px;
+    margin-right: 5px;
+    background-color: #007bff; /* Background color for the badges */
+    color: #fff; /* Text color for the badges */
+    border-radius: 20px;
+    font-size: 1rem;
+}
