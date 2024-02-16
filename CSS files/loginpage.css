@@ -66,12 +66,40 @@ button:hover {
     text-align: center;
 }
 
+.login-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Style the login button */
+.login-form button {
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Style the options links */
 .options a {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
     text-decoration: none;
-    color: #666; 
-    margin-right: 10px;
+    color: #007bff;
 }
 
 .options a:hover {
-    color: #333; 
+    text-decoration: underline;
 }
