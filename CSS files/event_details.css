@@ -58,8 +58,8 @@
             margin-bottom: 10px;
         }
         .rule {
-            background-color: black;
-            color: #fff;
+            background-color: rgb(255, 255, 255);
+            color: #111010;
             padding: 10px 20px;
             border-radius: 5px;
             cursor: pointer;
