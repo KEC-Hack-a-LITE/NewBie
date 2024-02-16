@@ -37,10 +37,12 @@ header {
 }
 
 nav {
+
     flex: 1;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.3); /* Adjust opacity as needed */
-    backdrop-filter: blur(10px); /* Adjust blur as needed */
+    background-color: rgba(255, 255, 255, 0.3); 
+    color: black;
+    backdrop-filter: blur(10px); 
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
@@ -48,6 +50,7 @@ nav {
 }
 
 .nav-links {
+    
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -56,11 +59,14 @@ nav {
 
 .nav-links li {
     display: inline;
+    
 }
 
 .nav-links li a {
     display: inline-block;
-    color: white;
+    color: rgb(26, 23, 23);
+    font-size: 23px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -70,7 +76,7 @@ nav {
     background-color: rgba(255, 255, 255, 0.3); /* Hover effect for glassy appearance */
 }
 
-/* Event cards styling */
+
 .events-container {
     display: flex;
     flex-wrap: wrap;
@@ -81,17 +87,18 @@ nav {
     margin: 20px;
     padding: 20px;
     border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.2); /* Transparent background with glass effect */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+    background-color: rgba(255, 255, 255, 0.2); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     transition: transform 0.3s ease;
 }
 
 .event:hover {
-    transform: translateY(-5px); /* Hover effect to lift the card slightly */
+    transform: translateY(-5px); 
 }
 
 .event img {
-    width: 100%;
+    width: 90px;
+
     height: auto;
     border-radius: 8px;
 }
@@ -100,6 +107,7 @@ nav {
     margin-top: 10px;
     color: white;
     text-align: center;
+    
 }
 
 .overlay {
@@ -112,7 +120,7 @@ nav {
 }
 
 .event:hover .overlay {
-    opacity: 1; /* Show overlay on hover */
+    opacity: 8; 
 }
 
 .overlay a {
@@ -127,9 +135,15 @@ nav {
 }
 
 .event-details {
-    background-color: rgba(255, 255, 255, 0.3); /* Transparent background with glass effect */
+    background-color: rgba(80, 72, 72, 0.3); 
+    text-decoration: solid;
+    color: blue;
 }
 
 .event-join {
-    background-color: rgba(0, 255, 0, 0.7); /* Green with transparency for join button */
+    background-color: rgb(24, 33, 24); 
+}.title{
+    color: black;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
