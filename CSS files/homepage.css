@@ -2,11 +2,22 @@
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    background-image: url('/images/bg image for home page.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
-/* Navbar styles */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(52, 15, 15, 0.84);
+}
+
 nav {
-    background: linear-gradient(135deg, #4CAF50, #2196F3);
+    background: linear-gradient(135deg, #4caf4f97, #2196F3);
     width: 250px;
     height: 100vh;
     position: fixed;
@@ -24,11 +35,11 @@ nav {
 }
 
 .logo-glass {
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(247, 241, 241, 0.123);
     backdrop-filter: blur(10px);
     border-radius: 10px;
     padding: 20px;
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 20px rgba(75, 211, 193, 0.5);
     transition: transform 0.3s ease;
 }
 
@@ -37,7 +48,7 @@ nav {
 }
 
 .logo-glass h1 {
-    color: #fff;
+    color: #272020;
     margin: 0;
     font-size: 24px;
     font-weight: 700;
@@ -56,8 +67,9 @@ nav {
 .nav-links a {
     display: block;
     padding: 15px 20px;
-    color: #fff;
+    color: #efe5e5;
     text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 18px;
     font-weight: 500;
     transition: background-color 0.3s ease;
