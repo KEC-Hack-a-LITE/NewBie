@@ -58,7 +58,7 @@
             margin-bottom: 10px;
         }
         .rule {
-            background-color: #007bff;
+            background-color: black;
             color: #fff;
             padding: 10px 20px;
             border-radius: 5px;
@@ -66,7 +66,7 @@
             transition: background-color 0.3s ease;
         }
         .rule:hover {
-            background-color: #0056b3;
+            background-color:white;
         }
         .criteria-list {
             background-color: #f0f0f0; /* Choose your desired background color */
