@@ -52,3 +52,62 @@ header {
 .team-member li {
     margin-bottom: 5px;
 }
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer div {
+    margin-bottom: 20px;
+}
+
+footer .social-media {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social-media h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.social-media ul {
+    list-style: none;
+    padding: 0;
+}
+
+.social-media ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-media ul li:last-child {
+    margin-right: 0; /* Remove margin from the last social media link */
+}
+
+.social-media a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+.social-media a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+footer .contact-info {
+    margin-bottom: 20px;
+}
+
+footer .contact-info p {
+    margin: 5px 0;
+}
+
+footer .copyright {
+    font-size: 0.8em;
+}
