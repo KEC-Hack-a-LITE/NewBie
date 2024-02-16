@@ -5,8 +5,6 @@ body {
     background-image: url('/images/bg image for home page.jpg');
     background-size: cover;
     background-position: center;
-    filter: blur();
-    position: relative;
 }
 
 .overlay {
@@ -79,72 +77,4 @@ nav {
 
 .nav-links a:hover {
     background-color: rgba(255, 255, 255, 0.2);
-    filter: blur(1.2px);
-}
-
-.event-slides {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.glass-slide {
-    width: 200px;
-    height: auto;
-    max-height: 400px;
-    background: rgba(31, 27, 27, 0.2);
-    backdrop-filter: blur(10px);
-    border-radius: 10px;
-    margin: 20px 0;
-    padding: 20px;
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
-    transition: transform 0.3s ease;
-    overflow: hidden;
-}
-
-.glass-slide:hover {
-    transform: scale(1.1);
-}
-
-.glass-slide img {
-    display: flex;
-    align-content: center;
-    width: 90%;
-    border-radius: 10px;
-    margin-bottom: 10px;
-}
-
-.event-details h2 {
-    margin: 0;
-    color: #fff;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.event-details p {
-    color: #fff;
-    margin: 5px 0;
-    font-size: 16px;
-}
-
-.options {
-    margin-top: auto;
-    max-height: 50%;
-    overflow-y: auto;
-}
-
-.join-btn,
-.details-btn {
-    display: inline-block;
-    padding: 8px 20px;
-    color: #fff;
-    background-color: #4caf50;
-    border-radius: 5px;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-}
-
-.join-btn:hover,
-.details-btn:hover {
-    background-color: #121712;
 }
