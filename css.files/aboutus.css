@@ -111,15 +111,85 @@ footer .copyright {
     font-size: 0.8em;
 }
 }
-.connect-with-us-form h3 {
-    margin-top: 0;
-    background-color: #ff5e62; /* Fill color */
-    padding: 10px; /* Optional: Add padding for better appearance */
-    border-radius: 5px; /* Optional: Add border radius for rounded corners */
+footer {
+    background-color: #f8f8f8;
+    padding: 20px;
 }
-.about-us-heading h1 {
-    background-color: #ff5e62; /* Fill color */
-   color: greenyellow;
-    padding: 10px; /* Optional: Add padding for better appearance */
-    border-radius: 5px; /* Optional: Add border radius for rounded corners */
+
+.contact-info, .social-media {
+    width: 200px; /* Adjust width as needed */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px; /* Adjust border radius as needed */
+    margin-bottom: 20px;
+}
+
+.contact-info h3, .social-media h3 {
+    margin-top: 0;
+}
+
+.social-media ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-media ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-media ul li:last-child {
+    margin-right: 0;
+}
+.footer-box {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f8f8f8;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.contact-info,
+.social-media,
+.checkbox-container {
+    flex: 1;
+}
+
+.contact-info h3,
+.social-media h3 {
+    margin-top: 0;
+}
+
+.social-media ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-media ul li {
+    margin-bottom: 5px;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-container input[type="checkbox"] {
+    margin-right: 5px;
+}
+.social-media-box {
+    background: linear-gradient(to right, #ff9966, #ff5e62);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.social-media {
+    color: white;
+}
+
+.social-media h3 {
+    margin-top: 0;
 }
