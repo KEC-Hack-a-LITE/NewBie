@@ -6,6 +6,7 @@
     <title>Dashboard</title>
     <link rel="stylesheet" href="/CSS files/dashboad.css">
 </head>
+<script src="/scripting/dashboard.js"></script>
 <body>
     <div class="dashboard">
         <header>
@@ -46,6 +47,20 @@
                             <p><strong>Join Date:</strong> January 10, 2023</p>
                         </div>
                     </div>
+                    <div class="profile-entry">
+                        <div class="profile-box">
+                            <p><strong>Name:</strong> John Doe </p>
+                            <p><strong>Email:</strong> john.doe@example.com</p>
+                            <p><strong>Level:</strong> 3</p>
+                            <p><strong>Points:</strong> 1800</p>
+                            <p><strong>Badges:</strong> 
+                                <span class="badge">Level 3</span>
+                                <span class="badge">Volunteer</span>
+                            </p>
+                            <p><strong>Last Login:</strong> January 24, 2024</p>
+                            <p><strong>Join Date:</strong> December 5, 2022</p>
+                        </div>
+                    </div>
                 </div>
             </section>
             <section class="notifications-section">
@@ -54,18 +69,62 @@
                     <div class="notification">
                         <p>New task assigned: Complete community cleanup by Friday.</p>
                     </div>
-                    
+                    <div class="notification">
+                        <p>Volunteer meeting on Thursday at 10 AM.</p>
+                    </div>
                 </div>
             </section>
             <section class="tasks-section">
-                <h2>Tasks pending :</h2>
-                <ul class="tasks">
-                    <li>Complete community cleanup</li>
-                    <li>Attend volunteer training session</li>
+                <h2>Add Your Upcoming Event:</h2>
+                <form class="event-form" id="eventForm">
+                    <div class="form-group">
+                        <label for="event-name">Event Name:</label>
+                        <input type="text" id="event-name" name="event-name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="event-date">Event Date:</label>
+                        <input type="date" id="event-date" name="event-date" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="event-requirements">event-details:</label>
+                        <textarea id="event-requirements" name="event-requirements" rows="4" cols="50" required placeholder="event details and Volunteer Requirments"></textarea>
+                    </div>
+                    <button type="submit">Add Event</button>
+                </form>
+                <div id="confirmationMessage" style="display: none;">
+                    <p>Event submitted successfully!</p>
+                </div>
+            </section>
+            
+            <section class="tasks-section" id="tasksSection">
+                <h2> Upcoming Events :</h2>
+                <ul class="tasks" id="taskList">
+                    
+                    <li>workshop at KTM,lalitpur </li>
                     
                 </ul>
             </section>
         </main>
     </div>
+    <script>
+        document.getElementById('eventForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            var eventName = document.getElementById('event-name').value;
+            var eventDate = document.getElementById('event-date').value;
+            var eventRequirements = document.getElementById('event-requirements').value;
+            
+            document.getElementById('eventForm').reset(); 
+            document.getElementById('confirmationMessage').style.display = 'block'; 
+            setTimeout(function() {
+                document.getElementById('confirmationMessage').style.display = 'none'; 
+            }, 3000);
+
+            
+            var taskList = document.getElementById('taskList');
+            var taskItem = document.createElement('li');
+            taskItem.textContent = eventName + " on " + eventDate;
+            taskList.appendChild(taskItem);
+        });
+    </script>
 </body>
 </html>
